@@ -1,0 +1,38 @@
+
+
+  nav {
+    display: inline-block;
+    overflow: hidden;
+    background:rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 20;
+    z-index: 100;
+    ul {
+      text-align: center;
+      list-style-type: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 15px;
+      li {
+        display: inline;
+        font-family: "Fira Sans", sans-serif;
+        font-size: 17px;
+        a {
+          color: #f2f2f2;
+          text-decoration: none;
+          padding: 14px;
+          &:hover {
+            background: rgba(240, 216, 0, 0.1);
+          }
+
+          img {
+            width: 10%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
