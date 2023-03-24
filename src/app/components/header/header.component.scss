@@ -1,0 +1,15 @@
+.page-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+  .carousel {
+    img {
+      height: 100vh;
+    }
+  }
+}
+
+

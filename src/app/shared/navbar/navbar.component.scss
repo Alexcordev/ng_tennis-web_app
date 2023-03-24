@@ -1,13 +1,18 @@
 
-
+.drop-item {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
   nav {
-    display: inline-block;
-    overflow: hidden;
+    display: flex;
     background:rgba(0, 0, 0, 0.5);
-    height: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
     width: 100%;
     position: fixed;
-    top: 20;
     z-index: 100;
     ul {
       text-align: center;
@@ -34,5 +39,12 @@
         }
       }
     }
+  }
+
+  @media screen and (max-width: 600px) {
+    img {
+      display: none;
+    }
+
   }
 

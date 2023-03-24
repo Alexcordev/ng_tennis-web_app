@@ -1,0 +1,26 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    row-gap: 20px;
+    padding: 40px 50px 40px 50px;
+    border: 2px #ccc solid;
+    
+
+    .input {
+      width: 100%;
+    }
+
+  }
+
+}

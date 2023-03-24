@@ -1,0 +1,11 @@
+<div class="container main-box">
+  <div *ngFor="let fav of items" class="card" style="width: 24rem;">
+    <img src={{fav.image}} class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{fav.title}}</h5>
+      <p class="card-text">{{fav.subtitle}}</p>
+      <a href="#" class="btn btn-secondary">En Savoir Plus</a>
+    </div>
+  </div>
+</div>
+
